@@ -44,7 +44,9 @@ int main() {
       scanf("%s", &Nome2);
      
       //Exibe as informações da cidada 1
-     
+      Printf("____________________");
+      printf("Informações da primeira cidade");
+      printf("____________________");
       printf("População é = %i\n", Populacao1);
       printf("A Cidade tem %i pontos turristicos\n", PontoTuristico1);
       printf("A Area da cidade é: %f\n ", Area1);
@@ -53,7 +55,9 @@ int main() {
       printf("Cidade é = %s\n", Nome1);
 
       // Exibe as informações da cidade 2
-      
+      Printf("____________________");
+      printf("Informações da segunda cidade");
+      printf("____________________");
       printf("População é = %i\n", Populacao2);
       printf("A Cidade tem %i pontos turristicos\n", PontoTuristico2);
       printf("A Area da cidade é: %f\n ", Area2);
