@@ -21,7 +21,7 @@ int main() {
     scanf("%f", &Pib);
     printf("Digite o nome da Cidade: \n");
     scanf("%s", &Nome);
-    printf("População é = %i\n", &Populacao);
+    printf("População é = %i\n", Populacao);
     printf("Cidade é = %s\n", &Nome);
     // Cadastro das Cartas:
     // Sugestão: Utilize a função scanf para capturar as entradas do usuário para cada atributo.
