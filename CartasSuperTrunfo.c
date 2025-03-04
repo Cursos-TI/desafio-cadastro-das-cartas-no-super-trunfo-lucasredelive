@@ -31,7 +31,7 @@ int main() {
       float Area2, Pib2;
       char Nome2[61];
       
-      printf("Digite as informações da segunda cidade cidade\n");
+      printf("Digite as informações da segunda cidade\n");
       printf("Digite a População: \n");
       scanf("%i", &Populacao2);
       printf("Digita a quantidade de pontos turisticos: \n");
@@ -40,13 +40,13 @@ int main() {
       scanf("%f", &Area2);
       printf("Digite o Pib: \n");
       scanf("%f", &Pib2);
-      printf("Digite o nome da segunda cidade Cidade: \n");
+      printf("Digite o nome da segunda Cidade: \n");
       scanf("%s", &Nome2);
      
       //Exibe as informações da cidada 1
-      Printf("____________________");
-      printf("Informações da primeira cidade");
-      printf("____________________");
+      printf("____________________\n");
+      printf("Informações da primeira cidade\n");
+      printf("____________________\n");
       printf("População é = %i\n", Populacao1);
       printf("A Cidade tem %i pontos turristicos\n", PontoTuristico1);
       printf("A Area da cidade é: %f\n ", Area1);
@@ -55,9 +55,9 @@ int main() {
       printf("Cidade é = %s\n", Nome1);
 
       // Exibe as informações da cidade 2
-      Printf("____________________");
-      printf("Informações da segunda cidade");
-      printf("____________________");
+      printf("____________________\n");
+      printf("Informações da segunda cidade\n");
+      printf("____________________\n");
       printf("População é = %i\n", Populacao2);
       printf("A Cidade tem %i pontos turristicos\n", PontoTuristico2);
       printf("A Area da cidade é: %f\n ", Area2);
