@@ -23,7 +23,7 @@ int main() {
     printf("Digite o Pib: \n");
     scanf("%f", &Pib1);
     printf("Digite o nome da primeira Cidade: \n");
-    fgets(Nome1, 61, stdin);
+    fgets(Nome1,61,stdin);
     printf("Digite o estado da primeira Cidade: \n");
     scanf("%s", &Estado1);
     printf("Digite o codigo da primeira Cidade: \n");
@@ -44,8 +44,8 @@ int main() {
       scanf("%f", &Area2);
       printf("Digite o Pib: \n");
       scanf("%f", &Pib2);
-      printf("Digite o nome da segunda Cidade: \n");
-      fgets(Nome2, 61, stdin);
+      printf("Digite o nome da segunda Cidade:\n");
+      fgets(Nome2,61,stdin);
       printf("Digite o estado da segunda Cidade: \n");
       scanf("%s", &Estado2);
       printf("Digite o codigo da segunda Cidade: \n");
