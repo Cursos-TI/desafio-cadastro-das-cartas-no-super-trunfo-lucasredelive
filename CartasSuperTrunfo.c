@@ -11,7 +11,7 @@ int main() {
 
     int PontoTuristico1, Populacao1;
     float Area1, Pib1;
-    char Nome1[61];
+    char Nome1[61], Estado1[61], CodigoCarta1[61];
     
     printf("Digite as informações da primeira cidade\n");
     printf("Digite a População: \n");
@@ -23,13 +23,17 @@ int main() {
     printf("Digite o Pib: \n");
     scanf("%f", &Pib1);
     printf("Digite o nome da primeira Cidade: \n");
-    scanf("%s", &Nome1);
+    fgets(Nome1, 61, stdin);
+    printf("Digite o estado da primeira Cidade: \n");
+    scanf("%s", &Estado1);
+    printf("Digite o codigo da primeira Cidade: \n");
+    scanf("%s", &CodigoCarta1);
 
 
       // Cidade 2
       int PontoTuristico2, Populacao2;
       float Area2, Pib2;
-      char Nome2[61];
+      char Nome2[61], Estado2[61], CodigoCarta2[61];
       
       printf("Digite as informações da segunda cidade\n");
       printf("Digite a População: \n");
@@ -41,7 +45,11 @@ int main() {
       printf("Digite o Pib: \n");
       scanf("%f", &Pib2);
       printf("Digite o nome da segunda Cidade: \n");
-      scanf("%s", &Nome2);
+      fgets(Nome2, 61, stdin);
+      printf("Digite o estado da segunda Cidade: \n");
+      scanf("%s", &Estado2);
+      printf("Digite o codigo da segunda Cidade: \n");
+      scanf("%s", &CodigoCarta2);
      
       //Exibe as informações da cidada 1
       printf("____________________\n");
@@ -49,10 +57,13 @@ int main() {
       printf("____________________\n");
       printf("População é = %i\n", Populacao1);
       printf("A Cidade tem %i pontos turristicos\n", PontoTuristico1);
-      printf("A Area da cidade é: %f\n ", Area1);
-      printf("O Pib da cidade é: %f\n ", Pib1);
+      printf("A Area da cidade é: %f km²\n ", Area1);
+      printf("O Pib da cidade é: %.2f\n ", Pib1);
       printf("População é = %i\n", Populacao1);
       printf("Cidade é = %s\n", Nome1);
+      printf("O Estado é : %s\n", Estado1);
+      printf("O Codigo é: %s\n", CodigoCarta1);
+
 
       // Exibe as informações da cidade 2
       printf("____________________\n");
@@ -60,10 +71,13 @@ int main() {
       printf("____________________\n");
       printf("População é = %i\n", Populacao2);
       printf("A Cidade tem %i pontos turristicos\n", PontoTuristico2);
-      printf("A Area da cidade é: %f\n ", Area2);
-      printf("O Pib da cidade é: %f\n ", Pib2);
+      printf("A Area da cidade é: %f km²\n ", Area2);
+      printf("O Pib da cidade é: %.2f bilhoes de reais\n ", Pib2);
       printf("População é = %i\n", Populacao2);
       printf("Cidade é = %s\n", Nome2);
+      printf("O Estado é : %s\n", Estado2);
+      printf("O Codigo é: %s\n", CodigoCarta2);
+
   
 
     // Cadastro das Cartas:
